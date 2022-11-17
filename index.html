@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+  <p>本日のsuzu_riaの筋トレ回数は<br><span id="result">だよ！頑張れ〜！</span></p>
+  <button id="startButton">くじを引く</button>
+ <script>
+ $('#startButton').on('click', function() {
+      var result = Math.floor( Math.random() * 998 ) + 1;
+      $('#result').html(result);
+    });
+</script>
+</body>
+</html>
