@@ -4,11 +4,14 @@
 <body>
   <p>本日のsuzu_riaの筋トレ回数は<br><span id="result">だよ！頑張れ〜！</span></p>
   <button id="startButton">くじを引く</button>
- <script>
- $('#startButton').on('click', function() {
-      var result = Math.floor( Math.random() * 998 ) + 1;
-      $('#result').html(result);
-    });
-</script>
+  <script  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  
+integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="  crossorigin="anonymous"></script>
+  <script>
+  <script>
+  $('#startButton').on('click', function() {
+       var result = Math.floor( Math.random() * 998 ) + 1;
+       $('#result').html(result);
+     });
+ </script>
 </body>
 </html>
