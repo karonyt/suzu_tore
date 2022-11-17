@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <head>
 </head>
+
 <body>
+  
+  <input type="button" value="くじを引く" onclick="clickBtn1()" />
   <div id="view" style="display: none;">
     <p>本日のsuzu_riaの筋トレ回数は<br><span id="kuzi"></span> 回だよ！頑張れ〜！</p>
   </div>
   
-  <input type="button" value="くじを引く" onclick="clickBtn1()" />
   <script>
     function clickBtn1() {
        var result = Math.floor( Math.random() * 998 ) + 1;
