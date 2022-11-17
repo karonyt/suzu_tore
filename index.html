@@ -5,10 +5,10 @@
 
 <body>
   <div class="button_solid004">
-  <input type="button" value="くじを引く" onclick="clickBtn1()" size="200%"/>
+  <input type="button" value="くじを引く" onclick="clickBtn1()" width="200%" height="200%"/>
   </div>
   <div id="view" style="display: none;" align="center">
-    <p size="200%" align="center">本日のsuzu_riaの筋トレ回数は<br><span id="kuzi"></span> 回だよ！頑張れ〜！</p>
+    <p width="200%" height="200%" align="center">本日のsuzu_riaの筋トレ回数は<br><span id="kuzi"></span> 回だよ！頑張れ〜！</p>
   </div>
   
   <script>
@@ -19,7 +19,7 @@
     var div = document.getElementById('view');
     state=div.style.display;
     if(state=="none"){
-         div.setAttribute("style","display:inline");
+         div.setAttribute("style","display:inline-block");
     }else{
         div.setAttribute("style","display:none");
       }
