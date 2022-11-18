@@ -5,13 +5,14 @@
 </head>
 
 <body>
+      <p><font size="5" color="#0000ff" face="Yusei Magic">ドキドキ！筋トレくじ！</font></p>
   <div class="button_solid004">
   <input type="button" value="くじを引く" onclick="clickBtn1()" width="200%" height="200%"/>
   </div>
   <div id="view" style="display: none;" align="center">
     <p align="center" width="200%" height="200%">本日のsuzu_riaの筋トレ回数は<br><span id="kuzi"></span> 回だよ！頑張れ〜！</p>
-  </div>
-  
+      </div>
+      
   <script>
     function clickBtn1() {
        var result = Math.floor( Math.random() * 998 ) + 1;
