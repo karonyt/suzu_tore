@@ -42,6 +42,6 @@ html {
     transform: translateY(3px);
 }
 body {
-  background-image: url("haikei.jpg");
+  background-image: url("haikei.png");
   background-size: cover;
 }
