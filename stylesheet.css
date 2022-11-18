@@ -41,3 +41,7 @@ html {
     border-bottom: solid 2px #1d7fde;
     transform: translateY(3px);
 }
+body {
+  background-image: url("haikei.jpg");
+  background-size: cover;
+}
